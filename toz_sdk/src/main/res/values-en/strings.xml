@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="actionbar_activity_not_found">Failed to open intent...</string>
+
+    <string name="updated_at_1">\u0020minute ago</string>
+    <string name="updated_at_2">\u0020minutes ago</string>
+    <string name="updated_just_now">just now</string>
+
+    <!-- ShareSDK第三方登录 -->
+    <string name="auth_cancel">authorization cancelled</string>
+    <string name="auth_error">authorization error</string>
+    <string name="auth_complete">authorization success</string>
+
+    <!-- general -->
+    <string name="cancel">Cancel</string>
+    <string name="connect_server">Loading...</string>
+    <string name="load_icons">Loading icons</string>
+    <string name="your_email">Your Email</string>
+    <string name="your_password">Password</string>
+    <string name="no_record">No Record</string>
+    <string name="crash_info">An unexpected error occurred. \nSorry for the inconvenience.</string>
+    <string name="exit">Press one more time to exit</string>
+
+    <!-- Internet -->
+    <string name="internet_err">Error in Network Connection</string>
+    <string name="load3D_failed">Server or Internet error. Please click the screen to reload.</string>
+    <string name="internet_error">Server or Internet error. Please click the button to reload.</string>
+    <string name="server_failed">Connect to server failed.</string>
+
+    <!-- user info -->
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="name">Name</string>
+    <string name="gender">Gender</string>
+    <string name="email">Email</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="birthday">Birthday</string>
+    <string name="birthday_hint">yyyy-MM-dd</string>
+    <string name="photo">Photo</string>
+
+    <!-- SplashActivity -->
+    <string name="reload_btn">Reload</string>
+
+    <!-- AccountLoginFragment, EmailRegisterFragment -->
+    <string name="login_title">Login</string>
+    <string name="forget_psw">Forgot Password?</string>
+    <string name="login_btn">Login</string>
+    <string name="sign_btn">Sign Up</string>
+    <string name="reset_psw">Reset Password</string>
+    <string name="registration">Registration</string>
+    <string name="email_empty">Please enter your email</string>
+    <string name="password_empty">Please enter your password</string>
+    <string name="confirm_psw_empty">Please enter confirm password</string>
+    <string name="emailpsw_empty">Please enter your email and password</string>
+    <string name="diff_psw">Two different passwords</string>
+    <string name="logging_in">Logging in...</string>
+    <string name="email_psw_error">Incorrect username/password.</string>
+    <string name="checking">Checking...</string>
+
+    <!-- ResetPasswordActivity -->
+    <string name="reset_psw_btn">Reset Password</string>
+    <string name="input_email">Enter your registered email</string>
+    <string name="send_email">A recovery email is sent to you, see it for more details</string>
+    <string name="email_not_exist">Your email does not exist in our database</string>
+
+    <!-- EmailRegisterFragment -->
+    <string name="register_email">Email</string>
+    <string name="register_psw">Password</string>
+    <string name="confirm_psw">Confirm password</string>
+    <string name="create_account">Create an account</string>
+
+    <!-- ImproveInformationActivity -->
+    <string name="user_name">User Name</string>
+    <string name="user_gender">Gender:</string>
+    <string name="user_height">Height:</string>
+    <string name="user_email">Email:</string>
+    <string name="user_weight">Weight:</string>
+    <string name="user_birthday">Birthday:</string>
+    <string name="optional">(Optional)</string>
+    <string name="required">(Required)</string>
+    <string name="required2">(Required)</string>
+    <string name="height_required">(140 ~ 200cm) (Required)</string>
+    <string name="gender_picker_title">Select your gender (can not be changed after confirmation)</string>
+    <string name="weight_picker_title">Please select your weight range</string>
+    <string name="height_picker_title">Please select your height</string>
+    <string name="weight_first_item">not disclose</string>
+    <string name="weight_tail">(select)</string>
+    <string name="weight_alert">Please enter your height first</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="confirm_btn">Next</string>
+    <string name="imin_title">Profile</string>
+    <string name="registering">Registering...</string>
+    <string name="email_exist">Your email has been registered, please login directly.</string>
+    <string name="email_error">Invalid Email address</string>
+    <string name="name_empty">Please enter your name</string>
+    <string name="gender_empty">Please select your gender</string>
+    <string name="height_empty">Please enter your height</string>
+    <string name="email_empty_again">Please enter your email</string>
+    <string name="height_error">The height is beyond the normal range.</string>
+
+    <!-- MenuListFragment -->
+    <string name="guest_record">Guest Records</string>
+    <string name="measure">My Measurements</string>
+    <string name="statistics">Statistics</string>
+    <string name="analysis">Analysis</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="settings">Settings</string>
+
+    <!-- MyRecordsActivity -->
+    <string name="loading_record">Loading Record</string>
+    <string name="getting_record">Getting record from server</string>
+    <string name="getting_record_success">Getting record successfully</string>
+    <string name="server_no_record">No record on server</string>
+    <string name="deleting">Deleting...</string>
+
+    <!-- GuestFragment -->
+    <string name="friends_record_delete">Select records to delete</string>
+    <string name="records_delete">Selected records: </string>
+    <string name="delete_btn">Delete</string>
+
+    <!-- InfoDialogActivity & StartProcessingFragment -->
+    <string name="dialog_title">Please input your information</string>
+    <string name="info_name">Name</string>
+    <string name="info_gender">Gender</string>
+    <string name="info_height_cm">Height (140 ~ 200cm)</string>
+    <string name="info_height_ft">Height</string>
+    <string name="info_weight">Weight</string>
+    <string name="info_ok">OK</string>
+    <string name="info_cancel">Cancel</string>
+    <string name="alert_name">Please input your name</string>
+    <string name="alert_height">Please input your height</string>
+    <string name="alert_gender">Please select your gender</string>
+    <string name="alert_weight">Please select your weight</string>
+
+    <!-- ProfileActivity -->
+    <string name="profileactivity_title">Personal information</string>
+
+    <!-- SettingsActivity -->
+    <string name="settingsfragmentlogin_title">Settings</string>
+    <string name="changepsw_title">Password</string>
+    <string name="account_management">Accounts Management and Binding</string>
+    <string name="general">General</string>
+    <string name="profile_name">PROFILE</string>
+    <string name="en">English</string>
+    <string name="zh_cn">简体中文</string>
+    <string name="zh_tw">繁體中文</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+    <string name="save_text">Save</string>
+
+    <!-- GeneralFragment -->
+    <string name="language">Language</string>
+    <string name="unit">Units</string>
+    <string name="unit_name">Units:</string>
+    <string name="metric">Metric (cm/kg)</string>
+    <string name="imperial">Imperial (inch/lb.)</string>
+
+    <!-- AccountsManagementFragment -->
+    <string name="privacy_psw">Change password</string>
+
+    <!-- pick photo and crop fragment -->
+    <string name="take_photo">Take photo</string>
+    <string name="gallery">Gallery</string>
+
+    <string name="server_changing_birthday">Changing birthday...</string>
+    <string name="server_changing_birthday_success">Your birthday has been changed successfully</string>
+    <string name="server_changing_height">Changing height...</string>
+    <string name="server_changing_height_success">Your height has been changed successfully</string>
+    <string name="server_changing_weight">Changing weight...</string>
+    <string name="server_changing_weight_success">Your weight has been changed successfully</string>
+    <string name="server_changing_name">Changing name...</string>
+    <string name="server_changing_name_success">Your name has been changed successfully</string>
+    <string name="server_changing_gender">Changing gender...</string>
+    <string name="server_changing_gender_success">Your gender has been changed successfully</string>
+    <string name="server_changing_password">Changing password...</string>
+    <string name="server_changing_password_success">Your password has been changed successfully</string>
+    <string name="new_password">new password</string>
+    <string name="user_not_exist">User not exist</string>
+
+    <!-- Tab Fragment -->
+    <string name="statistics_height">Height: </string>
+    <string name="statistics_measurements">Measurements</string>
+    <string name="statistics_size">Body Size</string>
+    <string name="statistics_chart">Statistics</string>
+    <string name="tab_2d">2D</string>
+    <string name="tab_3d">3D</string>
+    <string name="demo_title_custom_tab_icons">Custom Tab Icon</string>
+    <string name="demo_title_custom_tab_text">Custom Tab Icon</string>
+
+    <!-- ResultFragment -->
+    <string name="save_data">Saving data...</string>
+    <string name="save_data_success">Data has been saved successfully</string>
+    <string name="upload_data_failed">Upload failed. Please check your Internet connection</string>
+    <string name="save_btn">Save</string>
+    <string name="cancel_btn">Cancel</string>
+
+    <!-- TabSizeFragment -->
+    <string name="country">Country</string>
+    <string name="size">Size</string>
+    <string name="top_size">Top Size</string>
+    <string name="bottom_size">Bottom Size</string>
+
+    <!-- CameraActivity -->
+    <string name="take_photo_title">Photo taking</string>
+    <string name="retake_photo_title">Retake photo</string>
+    <string name="take_front_first">Please take front photo first</string>
+    <string name="front_pose">Front Pose</string>
+    <string name="side_pose">Side Pose</string>
+    <string name="detect_face">Can not detect face, Please retake</string>
+    <string name="front">Front</string>
+    <string name="side">Side</string>
+    <string name="camera_access_error">Your camera can not be opened.</string>
+
+    <!-- BodyShowActivity -->
+    <string name="bodyshow_title">Profile</string>
+    <string name="bodyshow_back">retake</string>
+    <string name="bodyshow_front">Front</string>
+    <string name="bodyshow_side">Side</string>
+    <string name="bodyshow_scan">Reanalyse</string>
+    <string name="confirm">Confirm</string>
+    <string name="processing">Stay tuned for your upcoming measurement result</string>
+    <string name="process_front">Processing front body...</string>
+    <string name="process_side">Processing side body...</string>
+    <string name="stop_process">Stop processing...</string>
+
+    <!-- Show3DActivity -->
+    <string name="model_3d_title">3D Model</string>
+    <string name="model_3d_nextbtn">Next</string>
+    <string name="all_measure">All lines</string>
+
+    <!-- ShowModelsActivity -->
+    <string name="show_model_title">Models</string>
+    <string name="show_model_front">Front</string>
+    <string name="show_model_side">Side</string>
+    <string name="show_model_load">Loading model...</string>
+
+    <!-- my method -->
+    <string name="fail_face">Can not detect face, please retake</string>
+    <string name="fail_upperbody">Can not detect upper body, please retake</string>
+    <string name="fail_frontfoots">Can not detect front foots, please retake</string>
+    <string name="fail_sidefoots">Can not detect side foots, please retake</string>
+    <string name="fail_hands">Can not detect hands, please retake</string>
+
+    <!-- upload user photo -->
+    <string name="upload_fail">Upload failed</string>
+    <string name="upload_success">Upload success</string>
+
+    <!-- AnimatedPathView -->
+    <string name="no_points">Cannot have zero points in the line</string>
+
+    <!-- TutorialVideoActivity -->
+    <string name="no_function">You can not use this function in tutorial mode.</string>
+    <string name="video_playing">Please wait video finished.</string>
+
+    <!-- AdjustPositionActivity -->
+    <string name="front_btn">Front</string>
+    <string name="next_btn">Next</string>
+    <string name="undo_btn">Undo</string>
+    <string name="con_btn">Next</string>
+    <string name="adjust_title">Part adjustment</string>
+
+    <!-- EditProfileActivity -->
+    <string name="edit_title">Profile Checking</string>
+    <string name="improve_front_btn">Front</string>
+    <string name="improve_side_btn">Side</string>
+    <string name="improve_undo_btn">Undo</string>
+    <string name="done_btn">Done</string>
+
+    <!-- VideoPlayerActivity -->
+    <string name="get_data_success">get data successfully</string>
+    <string name="get_data_failed">get data failed, please connect Internet and press OK.</string>
+
+    <!-- Error dialog -->
+    <string name="retake_yes">Yes</string>
+    <string name="retake_no">No</string>
+    <string name="retake_or">Retake or not?</string>
+    <string name="reason">The accuracy of the results may be affected due to the following reasons:</string>
+    <string name="front_r">Front:</string>
+    <string name="side_r">Side:</string>
+    <string name="retake_front">Retake front?</string>
+    <string name="retake_side">Retake side?</string>
+    <string name="FB1">with another background or better lighting</string>
+    <string name="FB2">with another background or better lighting</string>
+    <string name="FB4">with another background or better lighting</string>
+    <string name="FB5">with another background or better lighting</string>
+    <string name="FB7">with another background or better lighting</string>
+    <string name="FP3">Arm away from body at 45 degree</string>
+    <string name="FP4">Open hand with fingers together and thumb extended, palms facing forward</string>
+    <string name="FP5">Open hand with fingers together and thumb extended, palms facing forward</string>
+    <string name="FP7">Standing erect with legs slightly apart and toes pointing at around 10 and 2 of the clock</string>
+    <string name="FP8">Standing erect with legs slightly apart and toes pointing at around 10 and 2 of the clock</string>
+    <string name="FX2">suitable clothing and with hair tied up</string>
+    <string name="SB1">with another background or better lighting</string>
+    <string name="SB2">with another background or better lighting or with hair tied up</string>
+    <string name="SB7">with another background or better lighting</string>
+    <string name="SX2">suitable clothing and with hair tied up</string>
+
+    <!-- ErrorShowActivity -->
+    <string name="error_title">Image errors</string>
+    <string name="ignore">Ignore</string>
+    <string name="retake">Retake</string>
+
+    <!-- help info -->
+    <string name="help_title">Help information</string>
+    <string name="stand_pose_title">Standing Pose</string>
+    <string name="hand_pose_title">Hand Pose</string>
+    <string name="bg_title">Background</string>
+    <string name="hair_title">Hair</string>
+    <string name="cloth_title">Clothing</string>
+    <string name="neck_title">Neck</string>
+    <string name="stand_pose_f1">Front pose:</string>
+    <string name="stand_pose_f2">\u0020look to the front with open hands and
+        two legs open around the shoulder width.</string>
+    <string name="stand_pose_f2s"><b>Turn to the left.</b></string>
+    <string name="stand_pose_s1">Side pose:</string>
+    <string name="stand_pose_s2">\u0020look straight with
+        hands and feet closed.</string>
+    <string name="bg_info">Take photos in an environment with sufficient lighting and not too lousy background. Avoid background colour
+        too similar to your clothing or the skin colour.</string>
+    <string name="hair_info">The accuracy of the results may be affected if your
+        hair covers the back, the shoulder or your neck.  For people with shoulder-length
+        or longer hair, you are suggested to tie your hair for better results.</string>
+    <string name="hand_pose">Open hand with fingers together and thumb extended, palms facing
+        forward.</string>
+    <string name="clothing">Wear normal and light clothing can improve the accuracy of your
+        results. Try to avoid clothing cover too much of your shape. You are suggested to take
+        off jackets or high heel shoes if any.</string>
+    <string name="neck">To better results, you are advised to have clothing where your neck is
+        not covered.</string>
+
+    <!-- move help info -->
+    <string name="move_front_view_title">Front-view Photo</string>
+    <string name="move_side_view_title">Side-view Photo</string>
+    <string name="move_front_view_info">Tap on the templates, and move to the correct locations for Head Top, Left Hand, Right Hand, Left Shoe and Right Shoe one by one. You can pinch to zoom in or zoom out for better view of the photo. You can also use the sliding bar on the right to scale up or scale down the templates if needed.</string>
+    <string name="move_side_view_info">Tap on the templates, and move to the correct locations for Head Top plus Neck and Shoe one by one. You can pinch to zoom in or zoom out for better view of the photo. You can also use the sliding bar on the right to scale up or scale down templates if needed.
+Press flip button on the left if the image is not on the correct side.</string>
+    <string name="move_undo">‘Undo’ - cancel all adjustment and start again.</string>
+    <string name="move_switch_front">‘Front’ – switch to see and adjust part location on the front-view photo.</string>
+    <string name="move_switch_side">‘Side’ – switch to see and adjust part location on the side-view photo.</string>
+    <string name="move_switch_next">‘Next’ - confirm and move on to next step.</string>
+
+    <!-- edit help info -->
+    <string name="edit_front_view_title">Front Profile</string>
+    <string name="edit_front_view_center_title">Front Profile (Center-line)</string>
+    <string name="edit_side_view_title">Side Profile</string>
+    <string name="edit_front_profile_center">Tap and adjust the body centre line position if needed. The profile is shown in yellow if it is tight fit to the body and it is shown in red if the predicted profile may be affected by occlusion.</string>
+    <string name="edit_front_profile">Tap and move the points, so as to edit the front body profile, improving accuracy due to occlusion by clothing. The profile is shown in yellow if it is tight fit to the body and it is shown in red if the predicted profile may be affected by occlusion.</string>
+    <string name="edit_side_profile">Tap and move the points, so as to edit the side body profile, improving accuracy due to occlusion by clothing. The profile is shown in yellow if it is tight fit to the body and it is shown in red if the predicted profile may be affected by occlusion.</string>
+    <string name="edit_undo">‘Undo’ - cancel all editing and start again.</string>
+    <string name="edit_switch_front">‘Front’ – switch to see and edit profile on the front profile.</string>
+    <string name="edit_switch_side">‘Side’ – switch to see and edit profile on the side profile.</string>
+    <string name="edit_switch_next">‘Done’ - confirm and move on to next step.</string>
+
+    <!-- AnalysisMaleFragment -->
+    <string name="chest">Chest: </string>
+    <string name="bust">Bust: </string>
+    <string name="waist">Waist: </string>
+    <string name="hip">Hip: </string>
+    <string name="analysis_instruction">Away from standard:</string>
+
+    <!-- Login fragment -->
+    <string name="switch_login">switch login</string>
+    <string name="account">iMeasure Account</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="phone_exist">Your phone number has been registered, please login directly.</string>
+    <string name="register_success">Register successfully.</string>
+    <string name="user_exist">User already registered.</string>
+    <string name="download_records_from_server">There are no records, do you want to download from server?</string>
+    <string name="different_device_login">Your account has been logined on another device, please login again.</string>
+    <string name="user_consume_number_limit">You have exceeded your body measure times quota</string>
+    <string name="account_locked">Your account is abnormal, please contact us.</string>
+    <string name="image_save_path">Image has saved to</string>
+    <string name="consume_one_time">You have used one time.</string>
+    <string name="delete_success">Delete successfully.</string>
+    <string name="delete_failed">Delete failed.</string>
+    <string name="phone_empty">Please input your mobile number</string>
+    <string name="phone_psw_error">Invalid phone number or password.</string>
+    <string name="password_error">Wrong password.</string>
+    <string name="crash_dialog_comment_prompt">You might add your comments about the problem below:</string>
+    <string name="crash_dialog_ok_toast">Thank you!</string>
+    <string name="crash_dialog_text">An unexpected error occurred forcing the application to stop. Please help us fix this by sending us error data, all you have to do is to click OK.</string>
+    <string name="crash_dialog_title">iMeasure has crashed</string>
+    <string name="crash_toast_text">Ooooops! I crashed.</string>
+    <string name="server_changing_email">Changing email...</string>
+    <string name="server_changing_email_success">Your email has been changed successfully.</string>
+    <string name="information_saving">Saving...</string>
+    <string name="information_save_success">Save successfully</string>
+    <string name="information_save_failed">Save failed</string>
+    <string name="confirm_logout">Are you sure to logout?</string>
+    <string name="bind_phone_email">Bind Phone Number/Email</string>
+    <string name="bind_success">Bind Successfully</string>
+    <string name="bind_failed">Bind Failed</string>
+    <string name="verify_old_psw">Verify Old Password</string>
+    <string name="change_psw_warn">To protect your data, please input your old password before changing the password</string>
+    <string name="phone_bind_already">This phone number has been bound by another account</string>
+    <string name="wrong_password">Wrong password</string>
+    <string name="change_password_success">Change password successfully</string>
+    <string name="change_password_failed">Change password failed</string>
+    <string name="verify_phone_number">Verify Phone Number</string>
+    <string name="reset_password_success_content">Your password has been reset successfully. Please login with your new password.</string>
+    <string name="get_records_from_server">Download records from server?</string>
+    <string name="get_guest_records_from_server">Download guest records from server?</string>
+    <string name="delete_records_or_not">Delete Records?</string>
+    <string name="delete_server_records">Also delete records on server</string>
+    <string name="attention">Attention</string>
+    <string name="gender_change_attention"><![CDATA[Your gender information is needed for calculating your measurements. <b><font color=#EF7C6F>Gender</b> cannot be edited after registration.]]></string>
+    <string name="touch_to_edit_text">Tap on the photos to activate profile editing.</string>
+    <string name="showcaseview_adjustview_btn_1">Slide up and down to change the size of templates</string>
+    <string name="showcaseview_adjustview_btn_2">Move this template to correct position by your finger</string>
+    <string name="showcaseview_adjustview_btn_3">Flip photo</string>
+    <string name="showcaseview_bodysizeview_btn_1">Click to check the standard size of this country</string>
+    <string name="showcaseview_bodysizeview_btn_2">Click to check your analysis</string>
+    <string name="showcaseview_cameraview_btn_1">Click to check instructions</string>
+    <string name="showcaseview_cameraview_btn_2">Click to change camera mode</string>
+    <string name="showcaseview_cameraview_btn_3">Click to take photos</string>
+    <string name="showcaseview_cameraview_btn_4">Click to select photo from your gallery</string>
+    <string name="showcaseview_guestrecordview_btn_1">Long press to delete records</string>
+    <string name="showcaseview_recordview_btn_1">Click to show side bar</string>
+    <string name="showcaseview_recordview_btn_2">Click to download records form server</string>
+    <string name="showcaseview_recordview_btn_3">Click to take photos</string>
+    <string name="showcaseview_recordview_btn_4">Click to enter selfie mode</string>
+    <string name="showcaseview_recordview_btn_5">Slide to the left to delete record</string>
+    <string name="loading_data">Loading data...</string>
+    <string name="guest_records_instruction">Help your friends to measure their bodies before buying them well fitted clothes online.</string>
+    <string name="sign_up_account_text">You can sign up with</string>
+    <string name="login_account_text">You can login with</string>
+    <string name="start_tutorial_instruction">You are STRONGLY recommended to press ‘Tutorial’ in getOrderBean to understand how to get your measurements using the app.</string>
+    <string name="your_head">Side face</string>
+    <string name="optional_fill">(Optional)</string>
+    <string name="head_top">Head top</string>
+    <string name="foot">Foot</string>
+    <string name="home_tab">Home</string>
+    <string name="camera_tab">Camera</string>
+    <string name="shopcart_tab">Shopping Cart</string>
+    <string name="my_tab">Account</string>
+    <string name="more_tab">More</string>
+    <string name="my_records">My Records</string>
+    <string name="ask_take_photo_text">Snapshot Mode</string>
+    <string name="selfie_mode_text">Selfie mode</string>
+    <string name="for_guest_mode">For guest</string>
+    <string name="take_photo_yourself">Take photo by yourself</string>
+    <string name="take_photo_friends">Take photo for friends/family</string>
+    <string name="centimeters">Centimeters</string>
+    <string name="feet_inch">Feet/Inches</string>
+    <string name="guest_record_tab">Guest Records</string>
+    <string name="kilograms">Kilograms</string>
+    <string name="pounds">Pounds</string>
+    <string name="add_new_guest">New Guest Profile</string>
+    <string name="guest_name">Guest Name</string>
+    <string name="please_select">Please Select</string>
+    <string name="no_guest_profile">You have no guest profile.</string>
+    <string name="no_record_for_guest">No record for this guest.</string>
+    <string name="create_one">Do you want to create a record?</string>
+    <string name="yes">Yes</string>
+    <string name="not_now">Not now</string>
+    <string name="delete_guest_profile_record">Are you sure to delete this guest\'s profile and record permanently?</string>
+    <string name="delete_guest_profile">Are you sure to delete this guest\'s profile?</string>
+    <string name="login_or">or</string>
+    <string name="user_vip_used_count">Used count (times): %1$s</string>
+    <string name="user_vip_total_count">Total allowed usage (times): %1$s</string>
+    <string name="user_remaining_count">Remaining count (times): %1$s</string>
+    <string name="agree_policy">Creating an account means you agree to the</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="force_logout">Logout Notification</string>
+    <string name="network_disconnect">network disconnected</string>
+    <string name="network_connect">network connected</string>
+    <string name="help_info_3d_page">Select measurement buttons on the right to review different measurements on the customized 3D model.</string>
+    <string name="measurements_choices">Measurements Choices</string>
+    <string name="usage_count">Usage Count</string>
+    <string name="help_faq">FAQ and Help</string>
+    <string name="tell_a_friend">Tell a Friend</string>
+    <string name="not_open_temporarily">Coming soon...</string>
+    <string name="tutorial_video">Tutorial Video</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="add_usage_count">Add</string>
+    <string name="image_invalide">Image invalid, please retake.</string>
+    <string name="correct_height_text"><![CDATA[<b><font color=#EF7C6F>Correct</b> body height is needed for <b><font color=#EF7C6F>accurate</b> measurements.]]></string>
+    <string name="rough_weight_text"><![CDATA[Only your <b><font color=#EF7C6F>approximated</b> weight is needed.]]></string>
+    <string name="correct_weight_text"><![CDATA[Weight is only used for measurement calculation. Your privacy is protected by <b><font color=#EF7C6F>Personal Data (Privacy) Ordinance (PDPO)</b>.]]></string>
+    <string name="double_click_to_quite">Click again to quite</string>
+    <string name="verify_password">Please input your password to change your weight.</string>
+    <string name="show_your_name">Your Name:</string>
+    <string name="show_your_height">Your Height:</string>
+    <string name="show_guest_height">Guest Height:</string>
+    <string name="show_guest_name">Guest Name:</string>
+    <string name="warn_title">Warnning:</string>
+    <string name="error_dialog_title">Error:</string>
+    <string name="add_new_person">Add a new guest</string>
+    <string name="show_guest_gender">Guest Gender:</string>
+    <string name="show_your_gender">Your Gender:</string>
+    <string name="permission_not_enough">Not enough permissions, can not proceed.</string>
+    <string name="language_auto">Automatic</string>
+    <string name="order_list">Order List</string>
+    <string name="customize_select_account_dialog_text">To offer you the best fit clothes, we need to know your measurements. Simply take two photos to get your measurements.</string>
+    <string name="customize_select_account_bottom_text">Order clothes for you and your loved ones or friends. Select for whom the clothes are ordered.</string>
+    <string name="product_title">Product</string>
+    <string name="fit_title">Fit</string>
+    <string name="details_title">Details</string>
+    <string name="info">Info</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="quantity">Quantity</string>
+    <string name="order_title">Order List</string>
+    <string name="order_num">Order Number:</string>
+    <string name="order_date">Order Date:</string>
+    <string name="all_order">All Orders</string>
+    <string name="order_to_pay">Orders to pay</string>
+    <string name="order_to_deliver">Orders to deliver</string>
+    <string name="order_to_receive">Orders to receive</string>
+    <string name="price">Price</string>
+    <string name="delete_or_not">Are you sure to delete this item?</string>
+    <string name="select_all">Select All</string>
+    <string name="check_out">Check Out (%1$s)</string>
+    <string name="total">Total</string>
+    <string name="empty_shoppingcart">Your shopping cart is empty</string>
+    <string name="order_revise">Revise Order</string>
+    <string name="pay_order">Pay</string>
+    <string name="address_title">Delivery Address</string>
+    <string name="payment_title">Payment</string>
+    <string name="confirmation_title">Confirmation</string>
+    <string name="add_new_delivery_address">Add a new address</string>
+    <string name="delete_shoppingcart_item_or_not">Are you sure to delete this item?</string>
+    <string name="delete_address_item">Are you sure to delete this address?</string>
+    <string name="error_show_view">Unknow error, pull to refresh.</string>
+    <string name="material_title">Material</string>
+    <string name="loading_more">Loading more...</string>
+    <string name="no_more_to_show">No more to show</string>
+    <string name="connect_exception">Network is abnormal, please check your internet connection</string>
+    <string name="socket_time_out_exception">Connection time out, please check your internet connection</string>
+    <string name="unknow_host_exception">Network is abnormal, please check your internet connection</string>
+    <string name="click_try_again">Network is abnormal, click to try again</string>
+    <string name="pick_error">No image sources available</string>
+    <string name="app_name">1Measure</string>
+    <string name="share_limit">You get extra credits by sharing this app to different platforms once every day. You have already shared on %1$s once today.</string>
+    <string name="count_limit">You have reached the maximum sharing limits.</string>
+    <string name="share_add_times">You have shared the app on %1$s. Your allowed usage credit is increased to %2$d.</string>
+    <string name="ssdk_gender_female">female</string>
+    <string name="ssdk_gender_male">male</string>
+    <string name="ssdk_share_to_youtube">Share to Youtube</string>
+    <string name="ssdk_symbol_ellipsis">...</string>
+    <string name="known">OK</string>
+    <string name="method_to_add_use_time">You can get extra usage credits by sharing this app with friends.</string>
+    <string name="confirm_to_discard_record">Are you sure to discard this record? Your usage number will not recover.</string>
+    <string name="wait_patient">Please wait patiently, we are processing your images hardly.</string>
+    <string name="tips">Tips</string>
+    <string name="showcase_click_to_add_guest">Click to add a guest profile.</string>
+    <string name="showcase_move_camera_button">Long click to move this button to some place you like.</string>
+    <string name="showcase_click_to_check_tips">Click to check tips of taking photos and your pose.</string>
+    <string name="app_intro">An amazing app to measure your body size.</string>
+    <string name="phone_and_email">Phone Number/Email</string>
+    <string name="wrong_phone_number">The phone number is in the wrong format. Please input the correct phone number.</string>
+    <string name="wait_minute">Please wait...</string>
+    <string name="email_code_send">We have sent the verification code to your email. Please check it out.</string>
+    <string name="verify_code_error">Incorrect code.</string>
+    <string name="enter_app">Enter App</string>
+    <string name="guide_text_1">Easy to master the body size</string>
+    <string name="guide_text_2">Personalized 3D human body model</string>
+    <string name="guide_text_3">Size analysis and size recommendations</string>
+    <string name="guide_text_4">Track body size changes</string>
+    <string name="reach_most_guest_records_text">Due to number limit, you can not add any more.</string>
+    <string name="nick_name">Your Nick Name</string>
+    <string name="your_gender">Your Gender</string>
+    <string name="select_male">M</string>
+    <string name="select_female">F</string>
+    <string name="your_birthday">Your Birthday</string>
+    <string name="height_change_attention"><![CDATA[Correct body height is needed for accurate measurement! <b><font color=#EF7C6F>Height</b> cannot be edited after registration.]]></string>
+    <string name="your_height">Your Height</string>
+    <string name="your_weight">Your Weight</string>
+    <string name="latest_measurements">Measurements</string>
+    <string name="birthday_change_attention">It is only for statistics purpose. Please rest assured that all of personal data won\'t be disclosed to third party.</string>
+    <string name="about_app">About 1Measure</string>
+    <string name="not_wifi">You are not using Wifi, this will consume a lot of GPRS. Continue?</string>
+    <string name="exception_out_of_date">Tango Service outdated!</string>
+    <string name="exception_tango_error">Tango Exception! Try again!</string>
+    <string name="exception_tango_invalid">Tango invalid exception! Try again!</string>
+    <string name="buffering">Loading...</string>
+    <string name="replay">Replay</string>
+    <string name="click_retry">Retry</string>
+    <string name="video_play_error">Error, please retry</string>
+    <string name="preparing">Preparing...</string>
+    <string name="web_refresh">Refresh</string>
+    <string name="all_tutorial_title">1Measure Tutorial</string>
+    <string name="snapshot_tutorial_title">Snapshot Mode Tutorial</string>
+    <string name="selfie_tutorial_title">Selfie Mode Tutorial</string>
+    <string name="gprs_mode_warn">You are using mobile network. The video is around 1min in length and 28Mb in size. It is suggested to connect to wi-fi network to avoid data charges.</string>
+    <string name="force_watch_video_text">Please watch this tutorial video. Tutorial is required for first-time users.</string>
+    <string name="get_local_data_failed">Get data failed</string>
+    <string name="load_server_data">Loading server data...</string>
+    <string name="load_local_data">Loading local data...</string>
+    <string name="keep_phone_vertical">Your device is not at the right position, make sure that it is not titled to the left, right, forward or backward.</string>
+    <string name="network_slow_warn">delay may occur due to unstable network connection in some area.</string>
+    <string name="phone">Phone</string>
+    <string name="wechat_public_number">Wechat Official Account</string>
+    <string name="select_photo">Select Photo</string>
+    <string name="share_success">Shared successfully!</string>
+    <string name="sorry">Sorry!</string>
+    <string name="confirm_action">Confirm action</string>
+    <string name="swipe_load">Swipe to load more</string>
+    <string name="release_load">Release to load more</string>
+    <string name="eshop_category_details_tab1">For Women</string>
+    <string name="eshop_category_details_tab2">For Men</string>
+    <string name="eshop_category_details_tab3">For Brand</string>
+    <string name="eshop_category_details_tab4">For Platform</string>
+    <string name="download">Download</string>
+    <string name="personal_account">Personal Account</string>
+    <string name="business_account">Business Account</string>
+    <string name="verify_account">Verify Account</string>
+    <string name="personal_account_alert">Your account is a personal account, please login on personal account page.</string>
+    <string name="business_account_alert">Your account is a business account, please login on business account page.</string>
+    <string name="confirm_save_edit_points">Are your sure to save your new profile?</string>
+    <string name="filter">Filter</string>
+    <string name="sort">Sort By</string>
+    <string name="total_products">Total items: %1$s</string>
+    <string name="please_choose">Please select...</string>
+    <string name="clear">Clear</string>
+    <string name="popularity_text">Popularity</string>
+    <string name="newest_text">Newest</string>
+    <string name="price_l2h_text">Price - Low to High</string>
+    <string name="price_h2l_text">Price - High to Low</string>
+    <string name="discount_text">Discount</string>
+    <string name="default_text">Default</string>
+    <string name="product_type">Type</string>
+    <string name="product_size">Size</string>
+    <string name="product_style">Style</string>
+    <string name="product_color">Color</string>
+    <string name="no_select">No Select</string>
+    <string name="message_permission_failed">Some access rights (e.g. use of camera) are needed to use 1Measure, which was denied by you. Please allow these access rights.</string>
+    <string name="permission_apply_failed">Permission Needed</string>
+    <string name="permission_apply_failed_content">Some access rights (e.g. use of camera) are needed to use 1Measure, which was denied in the first time use or disable in your mobile device. Please enable these access rights in \"Settings\".</string>
+    <string name="go_setting">Go Settings</string>
+    <string name="saving_photo">Saving photo...</string>
+    <string name="save_photo_success">Save successfully</string>
+    <string name="save_photo_failed">Save failed</string>
+    <string name="wish_list">Wish List</string>
+    <string name="search_mixmatch">Searching mix-match products...</string>
+    <string name="no_mixmatch_products">Sorry, no mix-match products.</string>
+    <string name="no_similar_products">Sorry, no similar products.</string>
+    <string name="search_similar_products">Searching similar products...</string>
+    <string name="find_mixmatch_products">Found %1$d mix-match products for you.</string>
+    <string name="find_similar_products">Found %1$d similar products.</string>
+    <string name="filter_with_num"><![CDATA[Filter (<b><font color=#EF7C6F>%1$d</b>)]]></string>
+    <string name="discount_l2h_text">Discount - Low to High</string>
+    <string name="discount_h2l_text">Discount - High to Low</string>
+    <string name="sortedItems">Brand</string>
+    <string name="category">Category</string>
+    <string name="platform">Platform</string>
+    <string name="onsale">On Sale</string>
+    <string name="reset_text">Reset</string>
+    <string name="confirm_close_without_save">Are you sure you want to close without saving your changes?</string>
+    <string name="unlimited">Unlimited</string>
+    <string name="clear_selection">Clear Selection</string>
+    <string name="select_none">Select None</string>
+    <string name="brand">Brand</string>
+    <string name="all_brands_selected">All brands</string>
+    <string name="all_platform_selected">All platforms</string>
+    <string name="similar_text">Similar Products</string>
+    <string name="mix_match_text">Mix-match Products</string>
+    <string name="recommend_size_text">Suggested Size</string>
+    <string name="recent_search">Recent Searches</string>
+    <string name="suggestions">Suggestions</string>
+    <string name="see_all">See all</string>
+    <string name="all_category">All categories</string>
+    <string name="clear_history">Are you sure to clear all search histories?</string>
+    <string name="calculate_size">Your size is being calculated...</string>
+    <string name="no_recommend_size">Automatic recommended size cannot be calculated due to incomplete information.</string>
+    <string name="recommend_size_sucess">Your suggested size is calculated successfully.</string>
+    <string name="just_fit">Just Fit</string>
+    <string name="slim_fit">Slim Fit</string>
+    <string name="login_by_platform">You have logged in %1$s by %2$s</string>
+    <string name="click_to_change_auth"><![CDATA[Click here to <b><font color=#EF7C6F>change your %1$s</b>]]></string>
+    <string name="third_party_binding">Bind your third-party accounts</string>
+    <string name="login_by_email">You have logged in %1$s by email</string>
+    <string name="click_to_change_email"><![CDATA[Click here to (<b><font color=#EF7C6F>change your email</b>)]]></string>
+    <string name="phone_number">Phone number</string>
+    <string name="add">Add</string>
+    <string name="add_to_login_by_password">Add phone number/email to login in %1$s directly</string>
+    <string name="wechat">WeChat</string>
+    <string name="go_to_update">Update</string>
+    <string name="get_user_data">Getting User data...</string>
+    <string name="bind_to_login">Bind third-party accounts to login %1$s directly</string>
+    <string name="phone_already_bind">Your phone number has been bound to another account.</string>
+    <string name="email_already_bind">Your email has been bound to another account.</string>
+    <string name="account_already_bind">This account has already been bound to another account.</string>
+    <string name="buy_quantity">Purchase quantity</string>
+    <string name="unbind_sucess">Unbind successfully.</string>
+    <string name="old_phone">Old phone number</string>
+    <string name="old_email">Old email</string>
+    <string name="lost_phone_email">Lost your %1$s?</string>
+    <string name="verify_old_account_confirm">Please enter password to verify your account.</string>
+    <string name="verify_old_account">Verify %1$s</string>
+    <string name="bind_new_phone">Bind New Phone Number</string>
+    <string name="bind_new_email">Bind New Email</string>
+    <string name="change_success">Change successfully</string>
+    <string name="add_cart_success">Add to cart successfully</string>
+    <string name="add_cart_failed">Add to cart failed</string>
+    <string name="total_money">Total: %1$s</string>
+    <string name="exclude_freight">Exclude freight</string>
+    <string name="shopcart_title">Shopping Cart (%1$s)</string>
+    <string name="edit_mode">Edit</string>
+    <string name="already_choose_cart_attr">Selected:\\n%1$s x %2$d</string>
+    <string name="unbind_at_lease_one">The account cannot be unbound under single binding. Please add another binding or phone number/email to unbind the current account.</string>
+    <string name="add_success">Add successfully</string>
+    <string name="add_failed">Add failed</string>
+    <string name="empty_address">No delivery address</string>
+    <string name="recipient">Recipient</string>
+    <string name="district">District</string>
+    <string name="detail_address">Address</string>
+    <string name="set_as_default_address">Set as default address</string>
+    <string name="default_address">Default</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="modify_address">Modify Address</string>
+    <string name="modify_success">Modify successfully</string>
+    <string name="modify_failed">Modify failed</string>
+    <string name="address">Address</string>
+    <string name="check_out_title">Check Out</string>
+    <string name="order_confirm">Order Confirm</string>
+    <string name="finish">Finish</string>
+    <string name="completed">Compeleted</string>
+    <string name="submit_order">Place This Order</string>
+    <string name="complete_purchase">Complete your purchase</string>
+    <string name="select_address_warn">Please select an address</string>
+    <string name="submitting_order">Submitting your Order...</string>
+    <string name="cant_select">Can not select this</string>
+    <string name="select_size">Please select your size</string>
+    <string name="select_customer">Customer</string>
+    <string name="tight_fit">Tighter fit</string>
+    <string name="regular_fit">Regular Fit</string>
+    <string name="loose_fit">More comfortable</string>
+    <string name="wechat_pay">Wechat Pay</string>
+    <string name="alipay">Alipay</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="paying">Processing your payment...</string>
+    <string name="choose_payment_method">Please choose payment method</string>
+    <string name="thanks_order">Thank you for your getOrderBean!</string>
+    <string name="deliver_asap">We will deliver your goods as soon as possible.</string>
+    <string name="manage_order">Manage Your Order</string>
+    <string name="order_success">Completed</string>
+    <string name="order_cancel">Canceled</string>
+    <string name="confirm_receive">Received</string>
+    <string name="order_review">Review</string>
+    <string name="empty_order_list">No related Order</string>
+    <string name="select_goods_first">Please choose goods first</string>
+    <string name="add_order_failed">Submit your order failed</string>
+    <string name="order_state">Order State</string>
+    <string name="delete_order">Delete</string>
+    <string name="cancel_order">Cancel Order</string>
+    <string name="select_app_image">This image is not supported. Please select image taken by this APP (version 2.4.0 or later).</string>
+    <string name="login_in_other_device">This account has been bound to other device. Please contact us if you want to change the bound device.</string>
+    <string name="account_need_relogin">Your account is abnormal, please login again.</string>
+    <string name="force_update">Force Update</string>
+    <string name="foot_print">Browsing Records</string>
+    <string name="simple_monday">Mon</string>
+    <string name="simple_Tuesday">Tue</string>
+    <string name="simple_wednesday">Wed</string>
+    <string name="simple_thursday">Thu</string>
+    <string name="simple_friday">Fri</string>
+    <string name="simple_saturday">Sat</string>
+    <string name="simple_sunday">Sun</string>
+    <string name="no_footprint">You have no footprint...</string>
+    <string name="no_error_warn">Very good, your photos meet our all requirements.</string>
+    <string name="no_wishlist">You have no goods wished to buy</string>
+    <string name="add_wishlist_success">Add to wishlist %1$s successfully</string>
+    <string name="add_wishlist_failed">Add to wishlist %1$s failed</string>
+    <string name="delete_wishlist_failed">Remove from wishlist %1$s failed</string>
+    <string name="delete_wishlist_success">Remove from wishlist %1$s successfully</string>
+    <string name="pay_failed">Payment failure</string>
+    <string name="cancel_payment">Payment cancelled</string>
+    <string name="pay_success">Pay success</string>
+    <string name="pay_refund">Refund</string>
+    <string name="pay_closed">Closed</string>
+    <string name="pay_revoked">Revoked</string>
+    <string name="pay_not">Not pay</string>
+    <string name="no_measure_record">You have no measurement record, we can not recommend size for you.</string>
+    <string name="my_fit_center">My Fit Corner</string>
+    <string name="guest_fitting">Guest Fitting</string>
+    <string name="etailor_customers">Customers</string>
+    <string name="etailor_size_std">Size Std</string>
+    <string name="etailor_no_record_warn">You can register by taking two photos to have your tailored fit garment produced for you or your loved ones. Click to add a user profile.  \\nAlternatively, you can select size on your own.</string>
+    <string name="select_size_myself">Select Sizes</string>
+    <string name="register">Register</string>
+    <string name="click_to_recom_size">Click to recommend size for you</string>
+    <string name="downloading_model">Downloading 3d model...</string>
+    <string name="no_match_gender">The registered user is %1$s, no size recommendations for all %2$s.</string>
+    <string name="men_wear">Men\'s Wear</string>
+    <string name="women_wear">Women\'s Wear</string>
+    <string name="children_wear">Children\'s Wear</string>
+    <string name="no_size">Sorry, this product has no size.</string>
+    <string name="order_2_confirm">Unconfirmed</string>
+    <string name="order_origin">Original order</string>
+    <string name="order_confirmed">Confirmed</string>
+    <string name="order_confirmed_b4_send">Confirmed order before send</string>
+    <string name="order_confirmed_after_receive">Modified order after receive</string>
+    <string name="order_delivered">Delivered</string>
+    <string name="order_confirm_user">Confirm by</string>
+    <string name="order_confirm_time">Confirm time</string>
+    <string name="order_check_result">Check</string>
+    <string name="order_adjust">Adjust</string>
+    <string name="user_order">Order List</string>
+    <string name="downloading_image">Downloading images...</string>
+    <string name="download_image_failed">Download images failed.</string>
+    <string name="token_outdate">Your token is out of date, please login again.</string>
+    <string name="updating">Updating...</string>
+    <string name="update_success">Update success</string>
+    <string name="update_failed">Update failed</string>
+    <string name="order_measure_result">Result</string>
+    <string name="outline">Body Outline</string>
+    <string name="customize_shop">eTailor is coming soon...</string>
+    <string name="etailor_name">eTailor</string>
+    <string name="restart_app">Restart 1Measure</string>
+    <string name="thank_you">Thank You!</string>
+    <string name="your_select_product">Your selected product</string>
+    <string name="go_to_cart">Go to cart</string>
+    <string name="eshop_name">eShop</string>
+    <string name="gender_male">male</string>
+    <string name="gender_female">female</string>
+    <string name="empty_products">No related products</string>
+    <string name="add_to">Add to</string>
+    <string name="new_wishlist">New Wishlist</string>
+    <string name="new_wishlist_empty">Wishlist name can not be empty.</string>
+    <string name="wishlist_name_exist">Wishlist name has existed.</string>
+    <string name="pay_with">Paying with</string>
+    <string name="pay_secure">Pay %1$s Securely</string>
+    <string name="move_to_cart">Move to cart</string>
+    <string name="move_to_cart_failed">Move to cart failed.</string>
+    <string name="move_to_cart_success">Move to cart successfully.</string>
+    <string name="add_to_wishlist">Add to Wishlist</string>
+    <string name="skip">Skip (%1$s)</string>
+    <string name="all_categories_selected">All categories</string>
+    <string name="remember_psw">Remember password</string>
+    <string name="app_name2">eM++</string>
+    <string name="replacing_3d">Replacing...</string>
+    <string name="downloading">Downloading...</string>
+    <string name="download_3d_file">Download 3D Files</string>
+    <string name="download_finish">Download complete</string>
+    <string name="unzip_file">Unzip Files</string>
+    <string name="unzipping">Unzipping...</string>
+    <string name="download_failed">Download failed, please check your network connection.</string>
+    <string name="download_warn">You are using mobile network. The files are big in size. It is suggested to connect to wi-fi network to avoid data charges.</string>
+    <string name="me">Me</string>
+    <string name="pre_process_image">Preprocesssing your images...</string>
+    <string name="calc_image_outline">Calculating profiles...</string>
+    <string name="pull_image_result">Pulling results...</string>
+    <string name="group_mode">Group Customization Mode</string>
+    <string name="not_find_group_mode_image">Can not find related images, please retake.</string>
+    <string name="add_new_group">Add New Group</string>
+    <string name="group_name">New Group</string>
+    <string name="delete_group">Are you sure to delete this group and its related records permanently?</string>
+    <string name="customers">Customers</string>
+    <string name="delete_file_failed">Delete local file failed</string>
+</resources>

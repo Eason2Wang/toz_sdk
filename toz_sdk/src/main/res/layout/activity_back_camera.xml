@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/back_container_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <View
+            android:id="@+id/status_bar_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black">
+
+            <FrameLayout
+                android:id="@+id/camera_area"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.flurgle.camerakit.CameraView
+                    android:id="@+id/camera"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    app:ckCropOutput="false"
+                    app:ckFacing="back"
+                    app:ckFlash="off"
+                    app:ckFocus="tapWithMarker"
+                    app:ckJpegQuality="100"
+                    app:ckZoom="off"
+                    app:ckMethod="standard"
+                    app:ckPermissions="picture"/>
+            </FrameLayout>
+
+            <com.tozmart.toz_sdk.widge.LineImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/lineImageView"
+                android:layout_above="@+id/bottom_l"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bottom_l"
+                android:layout_alignParentBottom="true"
+                android:background="#CCFFFFFF"
+                android:paddingStart="30dip"
+                android:paddingEnd="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/camera_user_info"
+                    android:layout_marginTop="10dip"
+                    android:layout_centerHorizontal="true"/>
+
+                <ImageButton
+                    android:id="@+id/pickPhoto"
+                    android:layout_width="@dimen/camera_view_button_size"
+                    android:layout_height="@dimen/camera_view_button_size"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:background="@color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/gallerypress_button" />
+
+                <ImageView
+                    android:layout_width="@dimen/camera_view_button_size"
+                    android:layout_height="@dimen/camera_view_button_size"
+                    android:id="@+id/camera_tips_view"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/camera_tips_btn" />
+
+                <ImageView
+                    android:layout_width="@dimen/take_photo_button_size"
+                    android:layout_height="@dimen/take_photo_button_size"
+                    android:id="@+id/capturePhoto"
+                    android:background="@drawable/takephoto_button"
+                    android:scaleType="center"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/camera_mask"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.6"
+                android:background="@drawable/mask"
+                android:visibility="gone" />
+
+            <ProgressBar
+                android:id="@+id/pb"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_centerInParent="true"
+                android:indeterminate="true"
+                android:indeterminateOnly="false"
+                android:visibility="gone" />
+
+            <!--<com.tozmart.imeasure.widge.MovableButton-->
+            <!--android:layout_width="70dip"-->
+            <!--android:layout_height="70dip"-->
+            <!--android:id="@+id/capturePhoto"-->
+            <!--android:background="@drawable/takephoto_button"-->
+            <!--android:scaleType="center"-->
+            <!--app:autoBack="true"-->
+            <!--app:millisInFuture="5000"-->
+            <!--app:toAlpha="0.5"-->
+            <!--app:moveable="false" />-->
+
+            <ImageView
+                android:layout_width="@dimen/camera_actionbar_btn_size"
+                android:layout_height="@dimen/camera_actionbar_btn_size"
+                android:id="@+id/camera_back_view"
+                android:layout_marginStart="10dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/circle_camera_btn_bkg"
+                app:srcCompat="@drawable/ic_arrow_back_24dp"
+                android:padding="8dp"/>
+
+            <RelativeLayout
+                android:layout_width="@dimen/camera_actionbar_btn_size"
+                android:layout_height="@dimen/camera_actionbar_btn_size"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/circle_camera_btn_bkg">
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/camera_pose_checkbox"
+                    android:button="@null"
+                    android:checked="true"
+                    android:background="@drawable/camera_pose_check_btn"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/top_text"
+                android:background="@drawable/round_white_background"
+                android:layout_marginTop="10dip"
+                android:paddingTop="@dimen/camera_actionbar_text_padding"
+                android:paddingBottom="@dimen/camera_actionbar_text_padding"
+                android:paddingStart="10dip"
+                android:paddingEnd="10dip"
+                android:layout_centerHorizontal="true"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="@string/front" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="flash"
+                android:id="@+id/toggleFlash"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:layout_width="@dimen/camera_toast_width"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/camera_position_error_l"
+                    android:orientation="vertical"
+                    android:background="@drawable/round_black_background"
+                    android:padding="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/keep_phone_vertical"
+                        android:textColor="@color/white"
+                        android:gravity="center_horizontal"
+                        android:layout_marginTop="5dp"
+                        android:layout_gravity="center_horizontal"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/not_90_degree_phone_icon"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"/>
+                </LinearLayout>
+                <com.tozmart.toz_sdk.widge.SensorTipView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sensorView"
+                    android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

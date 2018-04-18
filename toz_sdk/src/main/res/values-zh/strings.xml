@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="actionbar_activity_not_found">打不開...</string>
+
+    <string name="updated_at_1">分鐘前</string>
+    <string name="updated_at_2">分鐘前</string>
+    <string name="updated_just_now">剛才</string>
+
+    <!-- ShareSDK第三方登录 -->
+    <string name="auth_cancel">授權操作已取消</string>
+    <string name="auth_error">授權操作遇到錯誤，授權失敗</string>
+    <string name="auth_complete">授權成功，請稍候…</string>
+
+    <!-- general -->
+    <string name="cancel">取消</string>
+    <string name="connect_server">加載中...</string>
+    <string name="load_icons">加載圖標</string>
+    <string name="your_email">您的郵箱</string>
+    <string name="your_password">密碼</string>
+    <string name="no_record">沒有記錄</string>
+    <string name="crash_info">很抱歉，程序發生未知錯誤。</string>
+    <string name="exit">再按一次退出程序</string>
+
+    <!-- Internet -->
+    <string name="internet_err">網絡連接錯誤</string>
+    <string name="load3D_failed">網絡或服務器出錯，請點擊屏幕重載</string>
+    <string name="internet_error">網絡或服務器出錯，請點擊按鈕重載</string>
+    <string name="server_failed">連接服務器失敗</string>
+
+    <!-- user info -->
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="name">姓名</string>
+    <string name="gender">性別</string>
+    <string name="email">郵箱</string>
+    <string name="height">身高</string>
+    <string name="weight">體重</string>
+    <string name="birthday">生日</string>
+    <string name="birthday_hint">年-月-日</string>
+    <string name="photo">頭像</string>
+
+    <!-- SplashActivity -->
+    <string name="reload_btn">重新加載</string>
+
+    <!-- AccountLoginFragment, EmailRegisterFragment -->
+    <string name="login_title">登錄</string>
+    <string name="forget_psw">忘記密碼?</string>
+    <string name="login_btn">登錄</string>
+    <string name="sign_btn">註冊</string>
+    <string name="reset_psw">重置密碼</string>
+    <string name="registration">註冊</string>
+    <string name="email_empty">請填寫郵箱地址</string>
+    <string name="password_empty">請填寫密碼</string>
+    <string name="confirm_psw_empty">請確認密碼</string>
+    <string name="emailpsw_empty">請填寫郵箱和密碼</string>
+    <string name="diff_psw">兩次輸入的密碼不一致</string>
+    <string name="logging_in">正在登錄...</string>
+    <string name="email_psw_error">郵箱或密碼不正確</string>
+    <string name="checking">正在連接...</string>
+
+    <!-- ResetPasswordActivity -->
+    <string name="reset_psw_btn">重置密碼</string>
+    <string name="input_email">請輸入您的註冊郵箱</string>
+    <string name="send_email">您的新密碼已經發送到您的郵箱中，請查收</string>
+    <string name="email_not_exist">您的郵箱尚未註冊</string>
+
+    <!-- EmailRegisterFragment -->
+    <string name="register_email">郵箱</string>
+    <string name="register_psw">密碼</string>
+    <string name="confirm_psw">確認密碼</string>
+    <string name="create_account">創建帳戶</string>
+
+    <!-- ImproveInformationActivity -->
+    <string name="user_name">用戶名</string>
+    <string name="user_gender">性別：</string>
+    <string name="user_height">身高：</string>
+    <string name="user_email">郵箱：</string>
+    <string name="user_weight">體重：</string>
+    <string name="user_birthday">生日：</string>
+    <string name="optional">（建議選擇）</string>
+    <string name="required">（必須填寫）</string>
+    <string name="required2">（必須選擇）</string>
+    <string name="height_required">（140 ~ 200cm）（必須填寫）</string>
+    <string name="gender_picker_title">請選擇您的性別（確認後將不可更改）</string>
+    <string name="weight_picker_title">請選擇您的體重範圍</string>
+    <string name="height_picker_title">請選擇您的身高</string>
+    <string name="weight_first_item">不提供</string>
+    <string name="weight_tail">(選項)</string>
+    <string name="weight_alert">請先填寫您的身高</string>
+    <string name="dialog_ok">確定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="confirm_btn">下一步</string>
+    <string name="imin_title">完善信息</string>
+    <string name="registering">註冊中...</string>
+    <string name="email_exist">此郵箱已註冊，請直接登錄。</string>
+    <string name="email_error">無效的郵箱</string>
+    <string name="name_empty">請填寫您的姓名</string>
+    <string name="gender_empty">請選擇您的性別</string>
+    <string name="height_empty">請填寫您的身高</string>
+    <string name="email_empty_again">請填寫您的郵箱</string>
+    <string name="height_error">身高超出正常範圍</string>
+
+    <!-- MenuListFragment -->
+    <string name="guest_record">親友量體</string>
+    <string name="measure">我的量體尺寸</string>
+    <string name="statistics">數據統計</string>
+    <string name="analysis">體型分析</string>
+    <string name="tutorial">教程</string>
+    <string name="settings">系統設置</string>
+
+    <!-- MyRecordsActivity -->
+    <string name="loading_record">加載記錄</string>
+    <string name="getting_record">從服務器上獲取記錄</string>
+    <string name="getting_record_success">成功從服務器上獲取記錄</string>
+    <string name="server_no_record">服務器上無記錄</string>
+    <string name="deleting">正在刪除...</string>
+
+    <!-- GuestFragment -->
+    <string name="friends_record_delete">選擇要刪除的記錄</string>
+    <string name="records_delete">將要刪除的記錄：</string>
+    <string name="delete_btn">刪除</string>
+
+    <!-- InfoDialogActivity & StartProcessingFragment-->
+    <string name="dialog_title">請填寫您的信息</string>
+    <string name="info_name">姓名</string>
+    <string name="info_gender">性別</string>
+    <string name="info_height_cm">身高（140 ~ 200cm）</string>
+    <string name="info_height_ft">身高</string>
+    <string name="info_weight">體重</string>
+    <string name="info_ok">確定</string>
+    <string name="info_cancel">取消</string>
+    <string name="alert_name">請輸入您的姓名</string>
+    <string name="alert_height">請輸入您的身高</string>
+    <string name="alert_gender">請選擇您的性別</string>
+    <string name="alert_weight">請選擇您的體重</string>
+
+    <!-- ProfileActivity -->
+    <string name="profileactivity_title">個人信息</string>
+
+    <!-- SettingsActivity -->
+    <string name="settingsfragmentlogin_title">設置</string>
+    <string name="changepsw_title">修改密碼</string>
+    <string name="account_management">帳號管理和綁定</string>
+    <string name="general">通用</string>
+    <string name="profile_name">個人信息</string>
+    <string name="en">English</string>
+    <string name="zh_cn">简体中文</string>
+    <string name="zh_tw">繁體中文</string>
+    <string name="about">關於</string>
+    <string name="logout">登出</string>
+    <string name="save_text">保存</string>
+
+    <!-- GeneralFragment -->
+    <string name="language">語言</string>
+    <string name="unit">單位</string>
+    <string name="unit_name">單位：</string>
+    <string name="metric">公制 (cm/kg)</string>
+    <string name="imperial">英制 (inch/lb.)</string>
+
+    <!-- AccountsManagementFragment -->
+    <string name="privacy_psw">修改密碼</string>
+
+    <!-- pick photo and crop fragment -->
+    <string name="take_photo">拍照</string>
+    <string name="gallery">圖庫</string>
+
+    <!-- change my3DModel information fragment -->
+    <string name="server_changing_birthday">修改生日...</string>
+    <string name="server_changing_birthday_success">成功修改生日</string>
+    <string name="server_changing_height">修改身高...</string>
+    <string name="server_changing_height_success">成功修改身高</string>
+    <string name="server_changing_weight">修改體重...</string>
+    <string name="server_changing_weight_success">成功修改體重重</string>
+    <string name="server_changing_name">修改姓名...</string>
+    <string name="server_changing_name_success">成功修改姓名</string>
+    <string name="server_changing_gender">修改性别...</string>
+    <string name="server_changing_gender_success">成功修改性别</string>
+    <string name="server_changing_password">修改密碼...</string>
+    <string name="server_changing_password_success">成功修改密碼</string>
+    <string name="new_password">新密碼</string>
+    <string name="user_not_exist">用戶不存在</string>
+
+    <!-- Tab Fragment -->
+    <string name="statistics_height">身高：</string>
+    <string name="statistics_measurements">量體尺寸</string>
+    <string name="statistics_size">身體尺碼</string>
+    <string name="statistics_chart">圖表數據</string>
+    <string name="tab_2d">二維圖</string>
+    <string name="tab_3d">三維立體</string>
+    <string name="demo_title_custom_tab_icons">自定義tab</string>
+    <string name="demo_title_custom_tab_text">自定義tab</string>
+
+    <!-- ResultFragment -->
+    <string name="save_data">正在保存數據...</string>
+    <string name="save_data_success">數據已保存</string>
+    <string name="upload_data_failed">上傳數據失敗，請檢查您的網絡連結</string>
+    <string name="save_btn">保存</string>
+    <string name="cancel_btn">不保存</string>
+
+    <!-- TabSizeFragment -->
+    <string name="country">國家</string>
+    <string name="size">尺碼</string>
+    <string name="top_size">上身尺碼</string>
+    <string name="bottom_size">下身尺碼</string>
+
+    <!-- CameraActivity -->
+    <string name="take_photo_title">拍照</string>
+    <string name="retake_photo_title">重拍</string>
+    <string name="take_front_first">請先拍正面</string>
+    <string name="front_pose">正面姿勢</string>
+    <string name="side_pose">側面姿勢</string>
+    <string name="detect_face">未檢測到正臉，請重拍</string>
+    <string name="front">正面</string>
+    <string name="side">側面</string>
+    <string name="camera_access_error">無法打開相機</string>
+
+    <!-- BodyShowActivity -->
+    <string name="bodyshow_title">身體輪廓</string>
+    <string name="bodyshow_back">重拍</string>
+    <string name="bodyshow_front">正面</string>
+    <string name="bodyshow_side">側面</string>
+    <string name="bodyshow_scan">重新分析</string>
+    <string name="confirm">確定</string>
+    <string name="processing">正在為您量體，請稍候</string>
+    <string name="process_front">正在處理正面...</string>
+    <string name="process_side">正在處理側面...</string>
+    <string name="stop_process">正在中止處理...</string>
+
+    <!-- Show3DActivity -->
+    <string name="model_3d_title">3D模型</string>
+    <string name="model_3d_nextbtn">確定</string>
+    <string name="all_measure">所有尺寸線</string>
+
+    <!-- ShowModelsActivity -->
+    <string name="show_model_title">模型</string>
+    <string name="show_model_front">正面</string>
+    <string name="show_model_side">側面</string>
+    <string name="show_model_load">加載模型...</string>
+
+    <!-- my method -->
+    <string name="fail_face">檢測不到正臉，請重拍</string>
+    <string name="fail_upperbody">檢測不到上身，請重拍</string>
+    <string name="fail_frontfoots">檢測不到正面腳，請重拍</string>
+    <string name="fail_sidefoots">檢測不到側面腳，請重拍</string>
+    <string name="fail_hands">檢測不到手，請重拍</string>
+
+    <!-- upload user photo -->
+    <string name="upload_fail">頭像上傳失敗</string>
+    <string name="upload_success">頭像上傳成功</string>
+
+    <!-- AnimatedPathView -->
+    <string name="no_points">沒有得到預測點</string>
+
+    <!-- TutorialVideoActivity -->
+    <string name="no_function">教學模式此功能不可用</string>
+    <string name="video_playing">請等待視頻播放完</string>
+
+    <!-- AdjustPositionActivity -->
+    <string name="front_btn">正面</string>
+    <string name="next_btn">繼續</string>
+    <string name="undo_btn">撤銷</string>
+    <string name="con_btn">下一步</string>
+    <string name="adjust_title">部位調整</string>
+
+    <!-- EditProfileActivity -->
+    <string name="edit_title">輪廓確認</string>
+    <string name="improve_front_btn">正面</string>
+    <string name="improve_side_btn">側面</string>
+    <string name="improve_undo_btn">撤銷</string>
+    <string name="done_btn">完成</string>
+
+    <!-- VideoPlayerActivity -->
+    <string name="get_data_success">成功獲取數據</string>
+    <string name="get_data_failed">獲取數據失敗，請連接網絡後點擊確定。</string>
+
+    <!-- Error dialog -->
+    <string name="retake_yes">是</string>
+    <string name="retake_no">否</string>
+    <string name="retake_or">是否重拍？</string>
+    <string name="reason">結果的準確性可能會受到以下原因所影響：</string>
+    <string name="front_r">正面：</string>
+    <string name="side_r">側面：</string>
+    <string name="retake_front">重拍正面?</string>
+    <string name="retake_side">重拍側面?</string>
+    <string name="FB1">更換一個更好的背景和光線條件</string>
+    <string name="FB2">更換一個更好的背景和光線條件</string>
+    <string name="FB4">更換一個更好的背景和光線條件</string>
+    <string name="FB5">更換一個更好的背景和光線條件</string>
+    <string name="FB7">更換一個更好的背景和光線條件</string>
+    <string name="FP3">手臂與身體成45度角</string>
+    <string name="FP4">四肢併攏，壺口打開，掌心向前</string>
+    <string name="FP5">四肢併攏，壺口打開，掌心向前</string>
+    <string name="FP7">兩腿分開，左右腳尖分別指向2點鐘和10點鐘方向</string>
+    <string name="FP8">兩腿分開，左右腳尖分別指向2點鐘和10點鐘方向</string>
+    <string name="FX2">合適的衣服，頭髮紮起</string>
+    <string name="SB1">更換一個更好的背景和光線條件</string>
+    <string name="SB2">更換一個更好的背景和光線條件或者將頭髮紮起</string>
+    <string name="SB7">更換一個更好的背景和光線條件</string>
+    <string name="SX2">合適的衣服，頭髮紮起</string>
+
+    <!-- ErrorShowActivity -->
+    <string name="error_title">錯誤檢查</string>
+    <string name="ignore">忽略</string>
+    <string name="retake">重拍</string>
+
+    <!-- help info -->
+    <string name="help_title">幫助信息</string>
+    <string name="stand_pose_title">站姿</string>
+    <string name="hand_pose_title">手的姿勢</string>
+    <string name="bg_title">背景</string>
+    <string name="hair_title">頭髮</string>
+    <string name="cloth_title">衣服</string>
+    <string name="neck_title">脖子</string>
+    <string name="stand_pose_f1">正面姿勢：</string>
+    <string name="stand_pose_f2">雙眼目視前方，雙腳分開與肩部同寬，雙手適度張開。</string>
+    <string name="stand_pose_f2s"><b>向左側轉90度。</b></string>
+    <string name="stand_pose_s1">側面姿勢：</string>
+    <string name="stand_pose_s2">目視前方，手腳並攏。</string>
+    <string name="bg_info">請在光線明亮，背景純淨的地方拍照；避免背景中有和衣服或者膚色類似的顏色。</string>
+    <string name="hair_info">面部和肩部的遮擋會影響準確性，長髮者請將頭髮紮起來成辮子，短髮者請將頭髮別於耳後。</string>
+    <string name="hand_pose">手臂伸直，手掌向前，拇指張開，四指並攏。</string>
+    <string name="clothing">為提高準確性，請脫去外套，穿著較為貼身的、純色的單衣或褲子和平底鞋逕行拍照。</string>
+    <string name="neck">為提高準確度，請選擇可以露出全部頸部的領型的衣物進行拍照，例如圓領T恤。</string>
+
+    <!-- move help info -->
+    <string name="move_front_view_title">正面照</string>
+    <string name="move_side_view_title">側面照</string>
+    <string name="move_front_view_info">用手指點擊頭頂、左右手、左右鞋子的模板並調整移動至相應的部位。如有需要，可使用雙指放大或縮小相片大小，也可以使用屏幕右邊的滑動條來調整模版的大小。</string>
+    <string name="move_side_view_info">用手指點擊頭頂連頸部和鞋子的模板並調整移動至相應的部位。如有需要，可以使用雙指放大或縮小相片大小，也可以使用屏幕右邊的滑動條來調整模板的大小。
+如有需要，按翻轉鍵來翻轉相片。</string>
+    <string name="move_undo">「撤銷」 –  還原，取消之前的移動調整；</string>
+    <string name="move_switch_front">「正面」– 切换檢查、調整正面照片的部位位置；</string>
+    <string name="move_switch_side">「側面」– 切换檢查、調整側面照片的部位位置；</string>
+    <string name="move_switch_next">「下一步」– 決定並繼續下一步。</string>
+
+    <!-- edit help info -->
+    <string name="edit_front_view_title">正面輪廓</string>
+    <string name="edit_front_view_center_title">正面輪廓（中線）</string>
+    <string name="edit_side_view_title">側面輪廓</string>
+    <string name="edit_front_profile_center">用手指點擊、調整中分線位置。身體輪廓一般以黃色顯示，被衣物遮擋的估計體型輪廓顯示為紅色。</string>
+    <string name="edit_front_profile">用手指點擊、移動正面輪廓上的圓點來調整正面身體輪廓的形狀，減少因遮擋所引起的誤差、提高精度。身體輪廓一般以黃色顯示，被衣物遮擋的估計體型輪廓顯示為紅色。</string>
+    <string name="edit_side_profile">用手指點擊、移動側面輪廓上的圓點來調整側面身體輪廓的形狀，減少因遮擋所引起的誤差、提高精度。身體輪廓一般以黃色顯示，被衣物遮擋的估計體型輪廓顯示為紅色。</string>
+    <string name="edit_undo">「撤銷」 –  還原，取消之前的調整；</string>
+    <string name="edit_switch_front">「正面」– 切换檢查、調整正面身體輪廓；</string>
+    <string name="edit_switch_side">「側面」– 切换檢查、調整側面身體輪廓；</string>
+    <string name="edit_switch_next">「確定」– 決定並繼續下一步。</string>
+
+    <!-- AnalysisMaleFragment -->
+    <string name="chest">胸圍：</string>
+    <string name="bust">胸圍：</string>
+    <string name="waist">腰圍：</string>
+    <string name="hip">臀圍：</string>
+    <string name="analysis_instruction">與標準尺碼的差值：</string>
+
+    <!-- Login fragment -->
+    <string name="switch_login">切換登錄</string>
+    <string name="mobile_number">手機驗證碼登錄</string>
+    <string name="phone_exist">該手機號已註冊，請直接登錄。</string>
+    <string name="register_success">註冊成功</string>
+    <string name="user_exist">用戶已註冊</string>
+    <string name="download_records_from_server">本地沒有紀錄，是否從服務器上下載？</string>
+    <string name="different_device_login">您的帳戶正在其他設備上登錄，請重新登錄</string>
+    <string name="user_consume_number_limit">您的使用次數已達上限</string>
+    <string name="account_locked">您的帳戶異常，請聯繫我們。</string>
+    <string name="image_save_path">圖片已保存到</string>
+    <string name="consume_one_time">您已使用一次</string>
+    <string name="delete_success">刪除成功</string>
+    <string name="delete_failed">刪除失敗</string>
+    <string name="phone_empty">電話號碼不能為空</string>
+    <string name="phone_psw_error">手機號或密碼不正確</string>
+    <string name="password_error">密碼錯誤</string>
+    <string name="crash_dialog_comment_prompt">請註明您是如何操作才出現此問題：</string>
+    <string name="crash_dialog_ok_toast">謝謝！</string>
+    <string name="crash_dialog_text">應用程序出現問題已停止運行，請點擊確定發送錯誤信息幫助我們修復此問題。</string>
+    <string name="crash_dialog_title">iMeasure已炸</string>
+    <string name="crash_toast_text">Ooooops! 我炸了。</string>
+    <string name="server_changing_email">修改郵箱...</string>
+    <string name="server_changing_email_success">成功修改郵箱</string>
+    <string name="information_saving">保存中...</string>
+    <string name="information_save_success">保存成功</string>
+    <string name="information_save_failed">保存失败</string>
+    <string name="confirm_logout">確認登出？</string>
+    <string name="bind_phone_email">綁定手機號/郵箱</string>
+    <string name="bind_success">綁定成功</string>
+    <string name="bind_failed">綁定失敗</string>
+    <string name="verify_old_psw">驗證原密碼</string>
+    <string name="change_psw_warn">為保障您的數據安全，修改密碼前請填寫原密碼</string>
+    <string name="phone_bind_already">該手機號已被其他帳戶綁定</string>
+    <string name="wrong_password">密碼錯誤</string>
+    <string name="change_password_success">密碼已修改成功</string>
+    <string name="change_password_failed">修改密碼失敗</string>
+    <string name="verify_phone_number">驗證手機號</string>
+    <string name="reset_password_success_content">密碼重置成功，請使用新密碼登錄。</string>
+    <string name="get_records_from_server">是否從服務器上下載記錄？</string>
+    <string name="get_guest_records_from_server">是否從服務器上下載朋友記錄？</string>
+    <string name="delete_records_or_not">是否刪除記錄？</string>
+    <string name="delete_server_records">同時刪除服務器上的記錄</string>
+    <string name="attention">注意</string>
+    <string name="gender_change_attention"><![CDATA[您的身體呎吋是依據您的性別計算的。一經注冊，<b><font color=#EF7C6F>性別訊息</b>是不可更改的喔。]]></string>
+    <string name="touch_to_edit_text">點擊放大照片來確認或微調身體輪廓。</string>
+    <string name="showcaseview_adjustview_btn_1">上下滑動可調整移動模的大小</string>
+    <string name="showcaseview_adjustview_btn_2">用手指移動此模版至正確位置</string>
+    <string name="showcaseview_adjustview_btn_3">點此可翻轉圖片</string>
+    <string name="showcaseview_bodysizeview_btn_1">點擊查看相應國家的尺寸標準</string>
+    <string name="showcaseview_bodysizeview_btn_2">點擊進入體型分析界面</string>
+    <string name="showcaseview_cameraview_btn_1">點擊查看操作說明和注意事項</string>
+    <string name="showcaseview_cameraview_btn_2">點擊切換拍照模式</string>
+    <string name="showcaseview_cameraview_btn_3">點擊進行拍照</string>
+    <string name="showcaseview_cameraview_btn_4">點擊進入手機圖庫</string>
+    <string name="showcaseview_guestrecordview_btn_1">長按記錄進行刪除</string>
+    <string name="showcaseview_recordview_btn_1">點擊顯示側邊欄</string>
+    <string name="showcaseview_recordview_btn_2">點擊下載服務器記錄</string>
+    <string name="showcaseview_recordview_btn_3">點擊進入他拍模式</string>
+    <string name="showcaseview_recordview_btn_4">點擊進入自拍模式</string>
+    <string name="showcaseview_recordview_btn_5">向左滑動刪除記錄</string>
+    <string name="loading_data">正在加載數據...</string>
+    <string name="guest_records_instruction">为親友網購合體的衣服，先幫他/她拍個照量一量體。</string>
+    <string name="account">帳號登錄</string>
+    <string name="sign_up_account_text">請使用以下帳號註冊</string>
+    <string name="login_account_text">請使用以下帳號登錄</string>
+    <string name="start_tutorial_instruction">請先按「教程」鍵，了解從拍照到玃取量體數據的簡介流程並注意事項。</string>
+    <string name="your_head">側臉</string>
+    <string name="optional_fill">（建議填写）</string>
+    <string name="head_top">頭頂</string>
+    <string name="foot">腳</string>
+    <string name="home_tab">首頁</string>
+    <string name="camera_tab">拍照</string>
+    <string name="shopcart_tab">購物車</string>
+    <string name="my_tab">管理</string>
+    <string name="more_tab">更多</string>
+    <string name="my_records">所有記錄</string>
+    <string name="ask_take_photo_text">幫拍模式</string>
+    <string name="selfie_mode_text">自拍模式</string>
+    <string name="for_guest_mode">親友拍照</string>
+    <string name="take_photo_yourself">自己拍照</string>
+    <string name="take_photo_friends">給親友拍照</string>
+    <string name="centimeters">釐米</string>
+    <string name="feet_inch">英尺／英寸</string>
+    <string name="guest_record_tab">親友記錄</string>
+    <string name="kilograms">千克</string>
+    <string name="pounds">磅</string>
+    <string name="add_new_guest">添加新的親友</string>
+    <string name="guest_name">親友名字</string>
+    <string name="please_select">請選擇</string>
+    <string name="no_guest_profile">您還沒有建立親友信息喔。</string>
+    <string name="no_record_for_guest">此親友沒有紀錄。</string>
+    <string name="create_one">為此親友創建量體記錄？</string>
+    <string name="yes">是的</string>
+    <string name="not_now">以後再說</string>
+    <string name="delete_guest_profile_record">您確定永久性刪除該親友的信息和記錄？</string>
+    <string name="delete_guest_profile">您確定永久性刪除該親友的信息？</string>
+    <string name="login_or">或</string>
+    <string name="user_vip_used_count">已使用次數：%1$s</string>
+    <string name="user_vip_total_count">允許使用次數：%1$s</string>
+    <string name="user_remaining_count">剩餘使用次數：%1$s</string>
+    <string name="agree_policy">創建帳戶表示您已經同意</string>
+    <string name="privacy_policy">隱私政策</string>
+    <string name="force_logout">登出通知</string>
+    <string name="network_disconnect">網絡連接已斷開</string>
+    <string name="network_connect">網絡已連上</string>
+    <string name="help_info_3d_page">點擊右邊按鈕來查看不同部位的尺寸。</string>
+    <string name="measurements_choices">尺寸選擇</string>
+    <string name="usage_count">使用次數</string>
+    <string name="help_faq">問題與幫助</string>
+    <string name="tell_a_friend">與朋友分享</string>
+    <string name="not_open_temporarily">敬請期待...</string>
+    <string name="tutorial_video">視頻教程</string>
+    <string name="about_us">關於我們</string>
+    <string name="contact_us">聯繫我們</string>
+    <string name="add_usage_count">增加使用次數</string>
+    <string name="image_invalide">圖片不符合要求，請重拍。</string>
+    <string name="correct_height_text"><![CDATA[請輸入<b><font color=#EF7C6F>正確</b>身高以獲得<b><font color=#EF7C6F>準確</b>量體尺寸。]]></string>
+    <string name="rough_weight_text"><![CDATA[只需選擇<b><font color=#EF7C6F>大致</b>體重即可。]]></string>
+    <string name="correct_weight_text"><![CDATA[體重只用於計算尺寸，您的隱私受到<b><font color=#EF7C6F>《個人資料（隱私）條例》</b>保障。]]></string>
+    <string name="double_click_to_quite">再按一次退出程序</string>
+    <string name="verify_password">請輸入密碼以修改體重</string>
+    <string name="show_your_name">您的名字:</string>
+    <string name="show_your_height">您的身高:</string>
+    <string name="show_guest_height">親友身高:</string>
+    <string name="show_guest_name">親友名字:</string>
+    <string name="warn_title">警告：</string>
+    <string name="error_dialog_title">錯誤：</string>
+    <string name="add_new_person">添加親友</string>
+    <string name="show_guest_gender">亲友性别:</string>
+    <string name="show_your_gender">您的性别:</string>
+    <string name="permission_not_enough">易量體所需權限不足，無法繼續。</string>
+    <string name="language_auto">自動</string>
+    <string name="order_list">訂單</string>
+    <string name="customize_select_account_dialog_text">為使您得到最稱身的服裝，我們需要您的量體數據。您只需拍兩張全身照。</string>
+    <string name="customize_select_account_bottom_text">請選擇為您自己和您的親人或朋友訂購服裝。</string>
+    <string name="product_title">產品</string>
+    <string name="fit_title">版型</string>
+    <string name="details_title">詳細信息</string>
+    <string name="info">更多信息</string>
+    <string name="add_to_cart">加入購物車</string>
+    <string name="quantity">數量</string>
+    <string name="order_title">我的訂單</string>
+    <string name="order_num">訂單號:</string>
+    <string name="order_date">訂單日期：</string>
+    <string name="all_order">全部訂單</string>
+    <string name="order_to_pay">待付款</string>
+    <string name="order_to_deliver">待發貨</string>
+    <string name="order_to_receive">待收貨</string>
+    <string name="price">價格</string>
+    <string name="delete_or_not">確認要刪除這件商品嗎？</string>
+    <string name="select_all">全選</string>
+    <string name="check_out">結算（%1$s）</string>
+    <string name="total">合計</string>
+    <string name="empty_shoppingcart">您的購物車是空的</string>
+    <string name="order_revise">修改訂單</string>
+    <string name="pay_order">付款</string>
+    <string name="address_title">收貨地址</string>
+    <string name="payment_title"> 付款</string>
+    <string name="confirmation_title">確認</string>
+    <string name="add_new_delivery_address">添加收貨地址</string>
+    <string name="delete_shoppingcart_item_or_not">確認要刪除這件商品嗎？</string>
+    <string name="delete_address_item">您確認刪除此收貨地址嗎？</string>
+    <string name="error_show_view">出錯了，下拉刷新一下試試。</string>
+    <string name="material_title">材質</string>
+    <string name="loading_more">正在加載...</string>
+    <string name="no_more_to_show">已加載全部</string>
+    <string name="connect_exception">網絡連接異常， 請檢查您的網絡狀態</string>
+    <string name="socket_time_out_exception">網絡連接超時，請檢查您的網絡狀態</string>
+    <string name="unknow_host_exception">網絡請求異常，請檢查您的網絡狀態</string>
+    <string name="click_try_again"> 網絡連接異常，請點擊重試</string>
+    <string name="pick_error">沒有可用的圖片來源</string>
+    <string name="app_name">易量體</string>
+    <string name="share_limit">每個分享平台一天只能獎勵1次使用次數，您今天已經在%1$s分享过1次。</string>
+    <string name="count_limit">您已經達到可使用次数的上限。</string>
+    <string name="share_add_times">通過分享至%1$s您已增加可使用次數至%2$d。</string>
+    <string name="known">知道了</string>
+    <string name="method_to_add_use_time">請把APP分享給朋友，您將獲得額外的使用次數！</string>
+    <string name="confirm_to_discard_record">您確定要放棄此次記錄？您的使用次數不會恢復哦。</string>
+    <string name="wait_patient">請耐心等待，我們正在努力處理您的圖片。</string>
+    <string name="tips">溫馨提示</string>
+    <string name="showcase_click_to_add_guest">點擊可以建立親友記錄。</string>
+    <string name="showcase_move_camera_button">長按可移動拍照按鈕。</string>
+    <string name="showcase_click_to_check_tips">點擊可查看拍照和姿勢的建議。</string>
+    <string name="app_intro">一款神奇的測量身體尺寸的應用。</string>
+    <string name="phone_and_email">手機號碼/郵箱</string>
+    <string name="wrong_phone_number">手機號格式有誤，請輸入正確的手機號。</string>
+    <string name="wait_minute">請稍候...</string>
+    <string name="email_code_send">我們已將驗證碼發到您的郵箱，請查收。</string>
+    <string name="verify_code_error">驗證碼錯誤。</string>
+    <string name="enter_app">進入應用</string>
+    <string name="guide_text_1">輕鬆掌握人體尺寸</string>
+    <string name="guide_text_2">個性化三維人體模型</string>
+    <string name="guide_text_3">體型分析與尺碼建議</string>
+    <string name="guide_text_4">追踪身體尺寸變化</string>
+    <string name="reach_most_guest_records_text">由於數量限制，您無法繼續添加。</string>
+    <string name="nick_name">您的暱稱</string>
+    <string name="your_gender">您的性別</string>
+    <string name="select_male">男</string>
+    <string name="select_female">女</string>
+    <string name="your_birthday">您的生日</string>
+    <string name="height_change_attention"><![CDATA[請輸入正確身高以獲得準確量體尺寸。一經註冊，<b><font color=#EF7C6F>身高</b>是不可更改的喔。]]></string>
+    <string name="your_height">您的身高</string>
+    <string name="your_weight">您的體重</string>
+    <string name="latest_measurements">最新尺寸</string>
+    <string name="birthday_change_attention">僅用於數據統計。請放心，我們不會向第三方透露任何您的個人資料。</string>
+    <string name="about_app">關於易量體</string>
+    <string name="not_wifi">您當前未使用Wifi網絡，這會消耗您的數據流量。是否繼續？</string>
+    <string name="exception_out_of_date">您的Tango服務未更新</string>
+    <string name="exception_tango_error">Tango出錯了，請重試</string>
+    <string name="exception_tango_invalid">Tango無效，請重試</string>
+    <string name="buffering">正在緩衝...</string>
+    <string name="replay">重新播放</string>
+    <string name="click_retry">點擊重試</string>
+    <string name="video_play_error">播放錯誤，請重試</string>
+    <string name="preparing">正在準備...</string>
+    <string name="web_refresh">刷新</string>
+    <string name="all_tutorial_title">教程和注意事項</string>
+    <string name="snapshot_tutorial_title">幫拍教程和注意事項</string>
+    <string name="selfie_tutorial_title">自拍教程和注意事項</string>
+    <string name="gprs_mode_warn">您正在使用移動網絡，播放視頻可能產生流量費用，視頻長約1分鐘，大小為28Mb，建議您在wi-fi網絡下觀看。</string>
+    <string name="force_watch_video_text">第一次使用「易量體」的用戶，請務必先觀看此教程短片，再進行拍照。</string>
+    <string name="get_local_data_failed">獲取數據失敗</string>
+    <string name="load_server_data">加載服務器數據中...</string>
+    <string name="load_local_data">加載本地數據中...</string>
+    <string name="keep_phone_vertical">請保持您的設備豎直，不要左右前後傾斜。</string>
+    <string name="network_slow_warn">部分地區會由於網絡傳輸問題導致處理時間較長，請您耐心等待。</string>
+    <string name="phone">電話</string>
+    <string name="wechat_public_number">微信公眾號</string>
+    <string name="select_photo">選擇圖片</string>
+    <string name="share_success">分享成功！</string>
+    <string name="sorry">抱歉！</string>
+    <string name="confirm_action">確認操作</string>
+    <string name="swipe_load">上拉加載更多</string>
+    <string name="release_load">釋放加載更多</string>
+    <string name="eshop_category_details_tab1">女裝</string>
+    <string name="eshop_category_details_tab2">男裝</string>
+    <string name="eshop_category_details_tab3">品牌</string>
+    <string name="eshop_category_details_tab4">平台</string>
+    <string name="download">下載記錄</string>
+    <string name="personal_account">個人帳戶</string>
+    <string name="business_account">企業帳戶</string>
+    <string name="verify_account">驗證帳號</string>
+    <string name="personal_account_alert">您的帳戶為個人帳戶，請在個人帳戶頁面登錄。</string>
+    <string name="business_account_alert">您的帳戶為企業帳戶，請在企業帳戶頁面登錄。</string>
+    <string name="confirm_save_edit_points">是否保存新的輪廓？</string>
+    <string name="filter">篩選</string>
+    <string name="sort">排序</string>
+    <string name="total_products">產品數量：%1$s</string>
+    <string name="please_choose">請選擇...</string>
+    <string name="clear">清除</string>
+    <string name="popularity_text">銷量優先</string>
+    <string name="newest_text">最新</string>
+    <string name="price_l2h_text">價格－由低到高</string>
+    <string name="price_h2l_text">價格－由高到低</string>
+    <string name="discount_text">折扣</string>
+    <string name="default_text">默認</string>
+    <string name="product_type">類型</string>
+    <string name="product_size">尺碼</string>
+    <string name="product_style">款式</string>
+    <string name="product_color">顏色</string>
+    <string name="no_select">不選</string>
+    <string name="message_permission_failed">易量體APP所需要的一些必要權限（例如相機功能）被禁止，請您重新授權。</string>
+    <string name="permission_apply_failed">權限申請</string>
+    <string name="permission_apply_failed_content">易量體APP需要的某些使用權限（例如相機功能）被系統或者初次使用時設為\"禁止\"，請您到設置頁面手動授權，以便正常使用各項軟件功能。</string>
+    <string name="go_setting">去設置</string>
+    <string name="saving_photo">正在保存圖片...</string>
+    <string name="save_photo_success">保存成功</string>
+    <string name="save_photo_failed">保存失敗</string>
+    <string name="wish_list">心願單</string>
+    <string name="search_mixmatch">正在為您搭配...</string>
+    <string name="no_mixmatch_products">抱歉，沒有找到搭配產品。</string>
+    <string name="no_similar_products">抱歉，沒有找到相似產品。</string>
+    <string name="search_similar_products">正在為您查找相似產品...</string>
+    <string name="find_mixmatch_products">已為您搭配%1$d種產品。</string>
+    <string name="find_similar_products">已為您找到%1$d種相似產品。</string>
+    <string name="filter_with_num"><![CDATA[篩選 (<b><font color=#EF7C6F>%1$d</b>)]]></string>
+    <string name="discount_l2h_text">折扣 - 由低到高</string>
+    <string name="discount_h2l_text">折扣 - 由高到低</string>
+    <string name="sortedItems">品牌</string>
+    <string name="category">分類</string>
+    <string name="platform">平臺</string>
+    <string name="onsale">促銷</string>
+    <string name="reset_text">重置</string>
+    <string name="confirm_close_without_save">您確定要放棄已經作出的修改嗎？</string>
+    <string name="unlimited">不限</string>
+    <string name="clear_selection">清空選擇</string>
+    <string name="select_none">全不選</string>
+    <string name="brand">品牌</string>
+    <string name="all_brands_selected">所有品牌</string>
+    <string name="all_platform_selected">所有平台</string>
+    <string name="similar_text">相似產品</string>
+    <string name="mix_match_text">混搭</string>
+    <string name="recommend_size_text">推薦尺碼</string>
+    <string name="recent_search">最近搜過</string>
+    <string name="suggestions">建議</string>
+    <string name="see_all">查看所有的</string>
+    <string name="all_category">所有分類</string>
+    <string name="clear_history">是否刪除所有搜索記錄？</string>
+    <string name="calculate_size">正在為您推薦尺碼...</string>
+    <string name="no_recommend_size">對不起，因信息不全，無法推薦尺碼。請手動選碼。</string>
+    <string name="recommend_size_sucess">尺碼推薦成功。</string>
+    <string name="just_fit">合體碼</string>
+    <string name="slim_fit">修身碼</string>
+    <string name="login_by_platform">您已使用%2$s登錄%1$s</string>
+    <string name="click_to_change_auth"><![CDATA[點擊此處<b><font color=#EF7C6F>更換%1$s</b>]]></string>
+    <string name="third_party_binding">第三方帳號綁定</string>
+    <string name="login_by_email">您已使用郵箱登錄 %1$s</string>
+    <string name="click_to_change_email"><![CDATA[點擊此處 (<b><font color=#EF7C6F>更換郵箱</b>)]]></string>
+    <string name="phone_number">手機號碼</string>
+    <string name="add">添加</string>
+    <string name="add_to_login_by_password">添加手機號/郵箱後可以直接使用手機號/郵箱和密碼登錄%1$s</string>
+    <string name="wechat">微信</string>
+    <string name="go_to_update">去升級</string>
+    <string name="get_user_data">加載用戶數據...</string>
+    <string name="bind_to_login">綁定第三方帳號後可以直接登錄%1$s</string>
+    <string name="phone_already_bind">該手機號已經綁定其他帳戶。</string>
+    <string name="email_already_bind">該郵箱已經綁定其他帳戶。</string>
+    <string name="account_already_bind">該帳號已經綁定其他帳號。</string>
+    <string name="buy_quantity">購買數量</string>
+    <string name="unbind_sucess">成功解除綁定。</string>
+    <string name="old_phone">舊手機號碼</string>
+    <string name="old_email">舊郵箱</string>
+    <string name="lost_phone_email">%1$s丟失或停用？</string>
+    <string name="verify_old_account_confirm">請輸入密碼驗證。</string>
+    <string name="verify_old_account">驗證%1$s</string>
+    <string name="bind_new_phone">綁定新手機號</string>
+    <string name="bind_new_email">綁定新郵箱</string>
+    <string name="change_success">更換成功</string>
+    <string name="add_cart_success">成功添加到購物車</string>
+    <string name="add_cart_failed">添加購物車失敗</string>
+    <string name="total_money">合計：%1$s</string>
+    <string name="exclude_freight">不含運費</string>
+    <string name="shopcart_title">購物車（%1$s）</string>
+    <string name="edit_mode">編輯</string>
+    <string name="already_choose_cart_attr">已選擇：\\n%1$s x %2$d</string>
+    <string name="unbind_at_lease_one">您當前只有一個綁定帳號，無法解綁，您可以添加手機號／郵箱或者其他第三方帳號之後再解綁當前帳號。</string>
+    <string name="add_success">添加成功</string>
+    <string name="add_failed">添加失敗</string>
+    <string name="empty_address">您還沒有創建收貨地址哦</string>
+    <string name="recipient">收貨人</string>
+    <string name="district">所在地區</string>
+    <string name="detail_address">詳細地址</string>
+    <string name="set_as_default_address">設為默認地址</string>
+    <string name="default_address">默認地址</string>
+    <string name="postal_code">郵政編碼</string>
+    <string name="modify_address">修改送貨地址</string>
+    <string name="modify_success">修改成功</string>
+    <string name="modify_failed">修改失敗</string>
+    <string name="address">收貨地址</string>
+    <string name="check_out_title">結算</string>
+    <string name="order_confirm">訂單確認</string>
+    <string name="finish">完成</string>
+    <string name="completed">完成</string>
+    <string name="submit_order">提交訂單</string>
+    <string name="complete_purchase">請付款</string>
+    <string name="select_address_warn">請選擇地址</string>
+    <string name="submitting_order">正在提交您的訂單...</string>
+    <string name="cant_select">無法選擇此項</string>
+    <string name="select_size">請選擇您的尺碼</string>
+    <string name="select_customer">為誰定製</string>
+    <string name="tight_fit">更貼身</string>
+    <string name="regular_fit">一般</string>
+    <string name="loose_fit">更舒適</string>
+    <string name="wechat_pay">微信支付</string>
+    <string name="alipay">支付寶</string>
+    <string name="pay_now">確認支付</string>
+    <string name="paying">正在支付...</string>
+    <string name="choose_payment_method">請選擇支付方式</string>
+    <string name="thanks_order">謝謝您的訂單！</string>
+    <string name="deliver_asap">我們將盡快安排送貨。</string>
+    <string name="manage_order">訂單管理</string>
+    <string name="order_success">交易成功</string>
+    <string name="order_cancel">交易取消</string>
+    <string name="confirm_receive">確認收貨</string>
+    <string name="order_review">評價</string>
+    <string name="empty_order_list">您還沒有相關的訂單</string>
+    <string name="select_goods_first">請先選擇商品</string>
+    <string name="add_order_failed">提交訂單失敗</string>
+    <string name="order_state">訂單狀態</string>
+    <string name="delete_order">刪除訂單</string>
+    <string name="cancel_order">取消訂單</string>
+    <string name="select_app_image">不支持加載此圖片，請選用本APP（2.4.0或以後版本）拍攝的照片。</string>
+    <string name="login_in_other_device">該帳號已經綁定其他設備，如需更換綁定設備請聯繫我們。</string>
+    <string name="account_need_relogin">賬戶異常，請重新登錄。</string>
+    <string name="force_update">強制更新</string>
+    <string name="foot_print">瀏覽記錄</string>
+    <string name="simple_monday">一</string>
+    <string name="simple_Tuesday">二</string>
+    <string name="simple_wednesday">三</string>
+    <string name="simple_thursday">四</string>
+    <string name="simple_friday">五</string>
+    <string name="simple_saturday">六</string>
+    <string name="simple_sunday">日</string>
+    <string name="no_footprint">還沒有留下腳印哦</string>
+    <string name="no_error_warn">非常好，您的照片符合我們的要求。</string>
+    <string name="no_wishlist">您還沒有心願單哦</string>
+    <string name="add_wishlist_success">成功添加到心願單%1$s</string>
+    <string name="add_wishlist_failed">添加心願單%1$s失敗</string>
+    <string name="delete_wishlist_failed">從心願單中%1$s移除失敗</string>
+    <string name="delete_wishlist_success">成功從心願單%1$s中移除</string>
+    <string name="pay_failed">支付失敗</string>
+    <string name="cancel_payment"> 支付取消</string>
+    <string name="pay_success">支付成功</string>
+    <string name="pay_refund">轉入退款</string>
+    <string name="pay_closed">支付已關閉</string>
+    <string name="pay_revoked">支付已撤銷</string>
+    <string name="pay_not">未支付</string>
+    <string name="no_measure_record">你還沒有量體紀錄，我們無法為您推薦尺碼。</string>
+    <string name="my_fit_center">我的體型管理</string>
+    <string name="guest_fitting">親友記錄</string>
+    <string name="etailor_customers">" 選用戶"</string>
+    <string name="etailor_size_std">選碼</string>
+    <string name="etailor_no_record_warn">您還沒註冊喔！您可以註冊，為自己或朋友拍兩張照片，就可以為您或友人訂做合體的衣服了。很方便，您就不用頭痛選碼了。</string>
+    <string name="select_size_myself">我要自己選碼</string>
+    <string name="register">註冊試一試</string>
+    <string name="click_to_recom_size">點擊為你推薦尺碼</string>
+    <string name="downloading_model">正在下載3d模型...</string>
+    <string name="no_match_gender">註冊用戶是%1$s，%2$s商品將不會提供尺碼推薦。請手動選碼。</string>
+    <string name="men_wear">男裝</string>
+    <string name="women_wear">女裝</string>
+    <string name="children_wear">童裝</string>
+    <string name="no_size">抱歉，該產品沒有尺碼可供選擇。</string>
+    <string name="order_2_confirm">未確認</string>
+    <string name="order_origin">原始訂單</string>
+    <string name="order_confirmed">已確認</string>
+    <string name="order_confirmed_b4_send">發貨前已確認的訂單</string>
+    <string name="order_confirmed_after_receive">收貨後被修改的訂單</string>
+    <string name="order_delivered">已發貨</string>
+    <string name="order_confirm_user">核驗員</string>
+    <string name="order_confirm_time">核驗時間</string>
+    <string name="order_check_result">查看</string>
+    <string name="order_adjust">調整</string>
+    <string name="user_order">訂單列表</string>
+    <string name="downloading_image">正在下載圖片...</string>
+    <string name="download_image_failed">下載圖片失敗</string>
+    <string name="token_outdate">您的token已過期，請重新登錄。</string>
+    <string name="updating">正在更新...</string>
+    <string name="update_success">更新成功</string>
+    <string name="update_failed">更新失敗</string>
+    <string name="order_measure_result">尺寸結果</string>
+    <string name="outline">身體輪廓</string>
+    <string name="customize_shop">e定製即將上線...</string>
+    <string name="etailor_name">e定製</string>
+    <string name="restart_app">重新打開易量體</string>
+    <string name="thank_you">謝謝！</string>
+    <string name="your_select_product">您已選的產品</string>
+    <string name="go_to_cart">進入購物車</string>
+    <string name="eshop_name">e商城</string>
+    <string name="gender_male">男性</string>
+    <string name="gender_female">女性</string>
+    <string name="empty_products">沒有相關產品</string>
+    <string name="add_to">添加到</string>
+    <string name="new_wishlist">新建心願單</string>
+    <string name="new_wishlist_empty">心願單名稱不能為空。</string>
+    <string name="wishlist_name_exist">該心願單名字已經存在。</string>
+    <string name="pay_with">付款方式</string>
+    <string name="pay_secure">支付%1$s</string>
+    <string name="move_to_cart">移到購物車</string>
+    <string name="move_to_cart_failed">移到購物車失敗</string>
+    <string name="move_to_cart_success">成功移到購物車</string>
+    <string name="add_to_wishlist">加入心願單</string>
+    <string name="skip">跳過 (%1$s)</string>
+    <string name="all_categories_selected">所有分類</string>
+    <string name="remember_psw">記住密碼</string>
+    <string name="app_name2">衣呼</string>
+    <string name="replacing_3d">正在替換...</string>
+    <string name="downloading">正在下載...</string>
+    <string name="download_3d_file">下載3D文件</string>
+    <string name="download_finish">下載完成</string>
+    <string name="unzip_file">解壓縮文件</string>
+    <string name="unzipping">正在解壓縮...</string>
+    <string name="download_failed">下載失敗，請檢查您的網絡連接。</string>
+    <string name="download_warn">您正在使用移動網絡，該文件較大，建議您切換到wi-fi網絡下載。</string>
+    <string name="me">我</string>
+    <string name="pre_process_image">正在預處理圖片...</string>
+    <string name="calc_image_outline">正在計算輪廓...</string>
+    <string name="pull_image_result">正在拉取結果...</string>
+    <string name="group_mode">團定模式</string>
+    <string name="not_find_group_mode_image">沒有找到相關的照片，請重新拍照。</string>
+    <string name="add_new_group">新建組</string>
+    <string name="group_name">新組</string>
+    <string name="delete_group">您確定永久性刪除該組和其相關的所有記錄嗎？</string>
+    <string name="customers">客戶</string>
+    <string name="delete_file_failed">刪除本地文件失敗</string>
+</resources>

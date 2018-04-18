@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#aaffffff"/>
+            <size android:width="@dimen/camera_actionbar_btn_size" android:height="@dimen/camera_actionbar_btn_size" />
+            <padding android:left="0dip" android:top="0dip" android:right="0dip" android:bottom="0dip" />
+        </shape>
+    </item>
+</selector>
